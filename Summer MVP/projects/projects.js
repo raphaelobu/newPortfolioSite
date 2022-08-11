@@ -2,7 +2,7 @@ const mechanicalProjects = [
     ["./projectsImages/inclusiveDrillRedesign.JPG","Inclusive Drill Redesign","Redesigning a drill for a broader market","REFRESH"],
     ["./projectsImages/designForLoading.png","Design for Loading","Altering a member for specified loaded behavior","Solidworks"],
     ["./projectsImages/assemblyOfAJuicer.JPG","Assembly of a Juicer","Assembly of predesigned juicer components","Solidworks"],
-    ["./projectsImages/mechanicalMotionTransfer.JPG","Mechanical Motion Transfer","Simulating a motion transfer system","MatLab"],
+    ["./projectsImages/mechanicalMotionTransfer.JPG","Mechanical Transfer","Simulating a mechanical motion transfer system","MatLab"],
     ["./projectsImages/toolRackFEA.JPG","Tool Rack FEA","Modelling and FEA on a Tool Rack","Solidworks"], //Swap image for FEA analysis image
     ["./projectsImages/productTeardown.png","Reverse Engineering BPM","Teardown and Study of Blood Pressure Monitor","Solidworks"],
     ["./projectsImages/phoneCaseModel.JPG","Phone Case Modelling","Designing a simple iphone case","Solidworks, Fusion360"] //Make phone case in Fusion360
@@ -12,7 +12,10 @@ const softwareProjects = [
     ["./projectsImages/localLaborPartners.png","Ecommerce Website","Fullstack development of small Ecommerce labor arbitrage platform","ReactJS, TailwindCSS, Stripe"], //Swap to image of local labor partnership
     ["./projectsImages/imageManipulation.png","Image Manipulation","Simple Image Compression/Decompression tool","C, Hanson's Interfaces & Implementations"],
     ["./projectsImages/portfolioWebsite.png","My Portfolio Website","Developing a portfolio website with the basics","HTML,CSS, JavaScript"], // Add in image of portfolio website homepage
-    ["./projectsImages/","Assembly of a Juicer","Assembly of Juicer Components","Solidworks"], // Black edge removal tool
+    ["./projectsImages/","ML Data Handling","Python, NumPy"], // Black edge removal tool
+    ["./projectsImages/","",""], // Black edge removal tool
+    ["./projectsImages/","",""], // Black edge removal tool
+    ["./projectsImages/","",""], // Black edge removal tool
 ];
 
 const roboticsProjects = [

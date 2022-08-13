@@ -3,8 +3,13 @@ $('#all').click(function(event) {
   if(this.checked) {
       // Iterate each checkbox
       $(':checkbox').each(function() {
-          this.checked = true;                        
+          this.checked = false;
+          document.getElementById("listAll").style.display="block";
+          document.getElementById("listMechanical").style.display="none";
+          document.getElementById("listSoftware").style.display="none";                        
+          document.getElementById("listRobotics").style.display="none";
       });
+      this.checked = true;
   } else {
       $(':checkbox').each(function() {
           this.checked = false;                       
@@ -14,20 +19,57 @@ $('#all').click(function(event) {
 
 // Listen for click on toggle checkbox
 $('#mechanical').click(function(event) {   
-  if(!this.checked) {
+  if(this.checked) {
       // Iterate each checkbox
-      $('#all').each(function() {
-          this.checked = false;                        
+      $(':checkbox').each(function() {
+          this.checked = false;
+          document.getElementById("listAll").style.display="none";
+          document.getElementById("listMechanical").style.display="block";
+          document.getElementById("listSoftware").style.display="none";                        
+          document.getElementById("listRobotics").style.display="none";                    
       });
+      this.checked = true;
   } else {
-    if($('#software').checked && $('#robotics').checked){
-      $('#all').each(function() {
-        this.checked = true;                        
+      $(':checkbox').each(function() {
+          this.checked = false;                       
       });
-    };              
-  };
-});
+  }
+}); 
 
-function checkall(){
+// Listen for click on toggle checkbox
+$('#software').click(function(event) {   
+  if(this.checked) {
+      // Iterate each checkbox
+      $(':checkbox').each(function() {
+          this.checked = false;
+          document.getElementById("listAll").style.display="none";
+          document.getElementById("listMechanical").style.display="none";
+          document.getElementById("listSoftware").style.display="block";                        
+          document.getElementById("listRobotics").style.display="none";                         
+      });
+      this.checked = true;
+  } else {
+      $(':checkbox').each(function() {
+          this.checked = false;                       
+      });
+  }
+}); 
 
-}
+// Listen for click on toggle checkbox
+$('#robotics').click(function(event) {   
+  if(this.checked) {
+      // Iterate each checkbox
+      $(':checkbox').each(function() {
+          this.checked = false;
+          document.getElementById("listAll").style.display="none";
+          document.getElementById("listMechanical").style.display="none";
+          document.getElementById("listSoftware").style.display="none";                        
+          document.getElementById("listRobotics").style.display="block";                         
+      });
+      this.checked = true;
+  } else {
+      $(':checkbox').each(function() {
+          this.checked = false;                       
+      });
+  }
+}); 

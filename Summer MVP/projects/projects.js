@@ -11,9 +11,9 @@ const mechanicalProjects = [
 const softwareProjects = [
     ["./projectsImages/localLaborPartners.png","Ecommerce Website","Fullstack development of small Ecommerce labor arbitrage platform","ReactJS, TailwindCSS, Stripe"], //Swap to image of local labor partnership
     ["./projectsImages/imageManipulation.png","Image Manipulation","Simple Image Compression/Decompression tool","C, Hanson's Interfaces & Implementations"],
-    ["./projectsImages/portfolioWebsite.png","My Portfolio Website","Developing a portfolio website with the basics","HTML,CSS, JavaScript"], // Add in image of portfolio website homepage
+    ["./projectsImages/portfolioWebsite.png","My Portfolio Website","Developing a portfolio website with the basics","HTML, CSS, JavaScript"], // Add in image of portfolio website homepage
     ["./projectsImages/","ML Data Handling","Python, NumPy"], // Black edge removal tool
-    ["./projectsImages/","",""], // Black edge removal tool
+    ["./projectsImages/tictactoe","Tic-Tac-Toe vs Computer","ReactJS, HTML, CSS"], // Black edge removal tool
     ["./projectsImages/","",""], // Black edge removal tool
     ["./projectsImages/","",""], // Black edge removal tool
 ];

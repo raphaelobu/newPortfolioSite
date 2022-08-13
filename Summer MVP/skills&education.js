@@ -2,7 +2,7 @@
 $('#all').click(function(event) {   
   if(this.checked) {
       // Iterate each checkbox
-      $(':checkbox').each(function() {
+      $('.selector').each(function() {
           this.checked = false;
           document.getElementById("listAll").style.display="block";
           document.getElementById("listMechanical").style.display="none";
@@ -11,7 +11,7 @@ $('#all').click(function(event) {
       });
       this.checked = true;
   } else {
-      $(':checkbox').each(function() {
+      $('.selector').each(function() {
           this.checked = false;                       
       });
   }
@@ -21,7 +21,7 @@ $('#all').click(function(event) {
 $('#mechanical').click(function(event) {   
   if(this.checked) {
       // Iterate each checkbox
-      $(':checkbox').each(function() {
+      $('.selector').each(function() {
           this.checked = false;
           document.getElementById("listAll").style.display="none";
           document.getElementById("listMechanical").style.display="block";
@@ -30,7 +30,7 @@ $('#mechanical').click(function(event) {
       });
       this.checked = true;
   } else {
-      $(':checkbox').each(function() {
+      $('.selector').each(function() {
           this.checked = false;                       
       });
   }
@@ -40,7 +40,7 @@ $('#mechanical').click(function(event) {
 $('#software').click(function(event) {   
   if(this.checked) {
       // Iterate each checkbox
-      $(':checkbox').each(function() {
+      $('.selector').each(function() {
           this.checked = false;
           document.getElementById("listAll").style.display="none";
           document.getElementById("listMechanical").style.display="none";
@@ -49,7 +49,7 @@ $('#software').click(function(event) {
       });
       this.checked = true;
   } else {
-      $(':checkbox').each(function() {
+      $('.selector').each(function() {
           this.checked = false;                       
       });
   }
@@ -59,7 +59,7 @@ $('#software').click(function(event) {
 $('#robotics').click(function(event) {   
   if(this.checked) {
       // Iterate each checkbox
-      $(':checkbox').each(function() {
+      $('.selector').each(function() {
           this.checked = false;
           document.getElementById("listAll").style.display="none";
           document.getElementById("listMechanical").style.display="none";
@@ -68,7 +68,7 @@ $('#robotics').click(function(event) {
       });
       this.checked = true;
   } else {
-      $(':checkbox').each(function() {
+      $('.selector').each(function() {
           this.checked = false;                       
       });
   }
